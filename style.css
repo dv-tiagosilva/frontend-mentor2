@@ -3,6 +3,7 @@
 @font-face {
     font-family: "Figtree";
     src: url(fonts/Figtree-VariableFont_wght.ttf) format(truetype);
+    font-display: optional;
 }
 
 :root {
@@ -16,7 +17,6 @@
     margin: 0;
 }
 
-
 .flex-container {
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     background-color: var(--cor03);
     height: 100vh;
     width: 100vw;
-       
+
 }
 
 .flex-children {
